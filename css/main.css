@@ -211,3 +211,54 @@ form {
   margin-bottom: 22px;
 }
 /* end boost your links section */
+
+/* footer */
+footer {
+  background-color: var(--color-dark);
+}
+
+footer .container {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.footer-links .links {
+  margin: 3rem 0;
+}
+
+.footer-links .links h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--color-gray-20);
+  margin-bottom: 1.375rem;
+}
+
+.footer-links .links ul li {
+  margin-bottom: 1rem;
+}
+
+.footer-links .links ul li:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+.footer-links .links ul li a {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--color-violet-light);
+}
+
+.sui-social-medias {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sui-social-medias li {
+  margin-right: 1.375rem;
+}
+
+.sui-social-medias li:nth-last-child(1) {
+  margin-right: 0;
+}
+/* end footer */
