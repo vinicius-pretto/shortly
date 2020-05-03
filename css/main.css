@@ -57,18 +57,20 @@ a {
   background-repeat: no-repeat;
   background-image: url("../images/menu.svg");
 }
-/* sui-header end */
 
 .sui-banner {
-  background-image: url("../images/ilustration-working.png");
-  width: 100%;
-  height: 338px;
-  background-repeat: no-repeat;
-  background-position-x: 20px;
+  max-width: 100%;
   margin-bottom: 2.625rem;
 }
 
 /* main section */
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .sui-title {
   font-size: 2.625rem;
   font-weight: bold;
@@ -90,7 +92,6 @@ a {
   align-items: center;
   justify-content: center;
 }
-/* end main section */
 
 form {
   display: flex;
@@ -141,7 +142,6 @@ form {
   padding: 0.66rem 0.3rem;
   min-width: 100px;
 }
-/* end sui-input-group */
 
 /* advanced statistics section */
 .statiscs-section {
@@ -156,6 +156,13 @@ form {
   color: var(--color-dark-blue);
 }
 
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .sui-card {
   position: relative;
   background-color: var(--color-white);
@@ -165,6 +172,7 @@ form {
   padding-top: 5rem;
   margin-top: 6rem;
   margin-bottom: 3rem;
+  max-width: 320px;
 }
 
 .sui-card .avatar {
@@ -193,7 +201,6 @@ form {
 .sui-card .sui-text {
   margin-bottom: 0;
 }
-/* end advanced statistics section */
 
 /* boost your links section */
 .boost-your-links-section {
@@ -210,7 +217,6 @@ form {
   color: var(--color-white);
   margin-bottom: 22px;
 }
-/* end boost your links section */
 
 /* footer */
 footer {
@@ -218,9 +224,20 @@ footer {
 }
 
 footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   padding-top: 4rem;
   padding-bottom: 3rem;
-  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-links .links {
@@ -261,4 +278,84 @@ footer .container {
 .sui-social-medias li:nth-last-child(1) {
   margin-right: 0;
 }
-/* end footer */
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .sui-header {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .container {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  .sui-input-group {
+    max-width: 680px;
+  }
+
+  .sui-banner {
+    max-width: 450px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .sui-header {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .sui-title {
+    font-size: 4.625rem;
+    line-height: 90px;
+    text-align: left;
+  }
+
+  /* main section */
+  .main-section {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main-section .sui-text {
+    text-align: left;
+    max-width: 380px;
+  }
+
+  .section-cta {
+    justify-content: start;
+  }
+
+  /* statistics section */
+  .cards-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  footer .container {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .footer-links {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 500px;
+  }
+
+  .footer-links .links {
+    margin: 0;
+  }
+
+  .sui-banner {
+    max-width: 450px;
+  }
+}
