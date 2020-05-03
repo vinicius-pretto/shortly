@@ -193,5 +193,21 @@ form {
 .sui-card .sui-text {
   margin-bottom: 0;
 }
-
 /* end advanced statistics section */
+
+/* boost your links section */
+.boost-your-links-section {
+  background-color: var(--color-secondary);
+}
+
+.boost-your-links-section .container {
+  padding-top: 91px;
+  padding-bottom: 91px;
+  text-align: center;
+}
+
+.boost-your-links-section .sui-subtitle {
+  color: var(--color-white);
+  margin-bottom: 22px;
+}
+/* end boost your links section */
