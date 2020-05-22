@@ -28,7 +28,7 @@
   display: none;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   .sui-header {
     margin-left: 3rem;
     margin-right: 3rem;
