@@ -13,8 +13,29 @@
 </head>
 
 <body>
+  <div id="nav-menu-mobile-backdrop"></div>
+  <nav id="nav-menu-mobile" class="sui-nav-menu-mobile">
+    <div class="header">
+      <a href="#" class="sui-logo">
+        <img src="/images/logo-mobile.png" alt="Shortly logo">
+      </a>
+
+      <button id="close-button" aria-label="Close menu" type="button" class="close-button"></button>
+    </div>
+
+    <ul>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Resources</a></li>
+      <li><a href="#">Login</a></li>
+      <li><a href="#">Sign Up</a></li>
+    </ul>
+  </nav>
+
   <header class="sui-header">
-    <sui-logo></sui-logo>
+    <a href="#" class="sui-logo">
+      <img src="/images/logo-mobile.png" alt="Shortly logo">
+    </a>
 
     <nav class="sui-nav-menu">
       <ul class="menu">
@@ -29,12 +50,12 @@
       </ul>
     </nav>
 
-    <button type="button" class="sui-burger-menu"></button>
+    <button id="burger-menu" type="button" class="sui-burger-menu" aria-label="Open menu"></button>
   </header>
 
-  <main>
+  <main id="main">
     <section class="container main-section">
-      <img class="sui-banner" src="images/ilustration-working.svg" alt="Ilustration working">
+      <img class="sui-banner" src="/images/ilustration-working.svg" alt="Ilustration working">
       <div>
         <h1 class="sui-title">More than just shorter links</h1>
         <p class="sui-text">Build your brand’s recognition and get detailed insights on how your links are performing.
@@ -60,7 +81,7 @@
         <div class="cards-container">
           <div class="sui-card">
             <div class="avatar">
-              <img src="images/icon-brand-recognition.svg" alt="Brand Recognition icon">
+              <img src="/images/icon-brand-recognition.svg" alt="Brand Recognition icon">
             </div>
 
             <h3>Brand Recognition</h3>
@@ -71,7 +92,7 @@
 
           <div class="sui-card">
             <div class="avatar">
-              <img src="images/icon-detailed-records.svg" alt="Detailed Records icon">
+              <img src="/images/icon-detailed-records.svg" alt="Detailed Records icon">
             </div>
 
             <h3>Detailed Records</h3>
@@ -81,7 +102,7 @@
 
           <div class="sui-card">
             <div class="avatar">
-              <img src="images/icon-fully-customizable.svg" alt="Fully Customizable icon">
+              <img src="/images/icon-fully-customizable.svg" alt="Fully Customizable icon">
             </div>
 
             <h3>Fully Customizable</h3>
@@ -103,7 +124,7 @@
   <footer>
     <div class="container footer-container">
       <a href="#" class="sui-logo">
-        <img src="images/logo-mobile-gray.svg" alt="Shortly logo">
+        <img src="/images/logo-mobile-gray.svg" alt="Shortly logo">
       </a>
 
       <div class="footer-links">
@@ -139,22 +160,22 @@
       <ul class="sui-social-medias">
         <li>
           <a href="#">
-            <img src="images/icon-facebook.svg" alt="Facebook icon">
+            <img src="/images/icon-facebook.svg" alt="Facebook icon">
           </a>
         </li>
         <li>
           <a href="#">
-            <img src="images/icon-twitter.svg" alt="Twitter icon">
+            <img src="/images/icon-twitter.svg" alt="Twitter icon">
           </a>
         </li>
         <li>
           <a href="#">
-            <img src="images/icon-pinterest.svg" alt="Pinterest icon">
+            <img src="/images/icon-pinterest.svg" alt="Pinterest icon">
           </a>
         </li>
         <li>
           <a href="#">
-            <img src="images/icon-instagram.svg" alt="Instagram icon">
+            <img src="/images/icon-instagram.svg" alt="Instagram icon">
           </a>
         </li>
       </ul>
@@ -162,6 +183,7 @@
   </footer>
 
   <script src="https://unpkg.com/shortly-ui@0.0.12/dist/shortly-ui/shortly-ui.js" async></script>
+  <script src="/scripts/mobile-menu.js"></script>
 </body>
 
 </html>
