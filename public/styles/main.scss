@@ -22,6 +22,7 @@ html {
 
 body {
   font-family: $font-family-primary;
+  font-weight: $font-weight-regular;
 }
 
 ul {
@@ -51,7 +52,7 @@ a {
 
 .sui-title {
   font-size: $font-size-xl;
-  font-weight: bold;
+  font-weight: $font-weight-bold;
   text-align: center;
   line-height: 48px;
   color: $color-dark-blue;

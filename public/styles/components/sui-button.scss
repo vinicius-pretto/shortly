@@ -1,12 +1,12 @@
 .sui-button {
   font-family: inherit;
   font-size: $font-size-base;
-  font-weight: bold;
+  font-weight: $font-weight-bold;
   background-color: $color-primary;
   border-width: 1px;
   border-style: solid;
   border-color: $color-primary;
   border-radius: $border-radius-base;
   color: $color-white;
-  padding: 0.49rem 1.625rem;
+  padding: $spacing-sm $spacing-lg;
 }

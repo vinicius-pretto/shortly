@@ -59,7 +59,7 @@
 }
 
 .sui-nav-menu-mobile ul li a {
-  font-weight: bold;
+  font-weight: $font-weight-bold;
   color: $color-violet-light;
 }
 
@@ -113,7 +113,7 @@
   }
 
   .sui-nav-menu ul li a {
-    font-weight: bold;
+    font-weight: $font-weight-bold;
     color: $color-violet-light;
   }
 
@@ -132,7 +132,7 @@
     border-style: solid;
     border-color: $color-primary;
     border-radius: $border-radius-base;
-    padding: 0.6rem 1.625rem;
+    padding: $spacing-sm $spacing-lg;
   }
 
   .sui-header .menu {

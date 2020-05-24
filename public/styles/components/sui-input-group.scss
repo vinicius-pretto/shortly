@@ -4,21 +4,21 @@ form {
   justify-content: center;
   height: 128px;
   background-color: $color-secondary;
-  margin: 3rem 0;
+  margin: $spacing-xl 0;
 }
 
 .sui-input-group {
   display: flex;
   flex: 1;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: $spacing-md;
+  margin-right: $spacing-md;
   max-width: 768px;
 }
 
 .sui-input-group input {
   display: flex;
   flex: 1;
-  padding: 0.66rem 0.5rem;
+  padding: $spacing-sm;
   border-top-left-radius: $border-radius-base;
   border-bottom-left-radius: $border-radius-base;
   border-width: 1px;
@@ -37,7 +37,7 @@ form {
 .sui-input-group button {
   font-family: inherit;
   font-size: $font-size-base;
-  font-weight: bold;
+  font-weight: $font-weight-bold;
   background-color: $color-primary;
   border-width: 1px;
   border-style: solid;
@@ -45,7 +45,7 @@ form {
   border-top-right-radius: $border-radius-base;
   border-bottom-right-radius: $border-radius-base;
   color: $color-white;
-  padding: 0.66rem 0.3rem;
+  padding: $spacing-sm $spacing-xs;
   min-width: 100px;
 }
 
