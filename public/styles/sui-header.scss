@@ -40,7 +40,7 @@
   width: 320px;
   padding-left: 2rem;
   padding-right: 2rem;
-  background-color: var(--color-white);
+  background-color: $color-white;
   z-index: 10;
   transform: translate(100%);
   transition: transform 0.3s ease-out;
@@ -51,7 +51,7 @@
   padding-bottom: 0.5rem;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: var(--color-gray-20);
+  border-bottom-color: $color-gray-20;
 }
 
 .sui-nav-menu-mobile ul {
@@ -64,7 +64,7 @@
 
 .sui-nav-menu-mobile ul li a {
   font-weight: bold;
-  color: var(--color-violet-light);
+  color: $color-violet-light;
 }
 
 #nav-menu-mobile-backdrop {
@@ -73,7 +73,7 @@
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: var(--color-dark);
+  background-color: $color-dark;
   opacity: 0;
   z-index: 10;
   pointer-events: none;
@@ -118,7 +118,7 @@
 
   .sui-nav-menu ul li a {
     font-weight: bold;
-    color: var(--color-violet-light);
+    color: $color-violet-light;
   }
 
   .sui-nav-menu ul li a:hover {
@@ -130,11 +130,11 @@
   }
 
   .sui-link {
-    background-color: var(--color-primary);
-    color: var(--color-white) !important;
+    background-color: $color-primary;
+    color: $color-white !important;
     border-width: 1px;
     border-style: solid;
-    border-color: var(--color-primary);
+    border-color: $color-primary;
     border-radius: 4px;
     padding: 0.6rem 1.625rem;
   }

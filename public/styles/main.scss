@@ -1,14 +1,5 @@
-:root {
-  --color-primary: #2bd0d0;
-  --color-secondary: #3b3054;
-  --color-error: #f46262;
-  --color-dark-blue: #35323e;
-  --color-dark: #232127;
-  --color-violet-light: #9e9aa7;
-  --color-violet-lighter: #f0f1f6;
-  --color-white: #ffffff;
-  --color-gray-20: #dedede;
-}
+@import "theme.scss";
+@import "sui-header.scss";
 
 * {
   margin: 0;
@@ -55,12 +46,12 @@ a {
   font-weight: bold;
   text-align: center;
   line-height: 48px;
-  color: var(--color-dark-blue);
+  color: $color-dark-blue;
 }
 
 .sui-text {
   font-size: 1rem;
-  color: var(--color-violet-light);
+  color: $color-violet-light;
   text-align: center;
   margin-top: 1.375rem;
   margin-bottom: 1.375rem;
@@ -77,7 +68,7 @@ form {
   align-items: center;
   justify-content: center;
   height: 128px;
-  background-color: var(--color-secondary);
+  background-color: $color-secondary;
   margin: 3rem 0;
 }
 
@@ -98,14 +89,14 @@ form {
   border-width: 1px;
   border-style: solid;
   border-right: none;
-  border-color: var(--color-violet-light);
+  border-color: $color-violet-light;
 }
 
 .sui-input-group input,
 .sui-input-group input::placeholder {
   font-family: inherit;
   font-size: 1rem;
-  color: var(--color-violet-light);
+  color: $color-violet-light;
 }
 
 .sui-input-group button {
@@ -124,7 +115,7 @@ form {
 
 /* advanced statistics section */
 .statiscs-section {
-  background-color: var(--color-violet-lighter);
+  background-color: $color-violet-lighter;
 }
 
 .sui-subtitle {
@@ -132,7 +123,7 @@ form {
   font-weight: bold;
   text-align: center;
   line-height: 42px;
-  color: var(--color-dark-blue);
+  color: $color-dark-blue;
 }
 
 .cards-container {
@@ -144,7 +135,7 @@ form {
 
 .sui-card {
   position: relative;
-  background-color: var(--color-white);
+  background-color: $color-white;
   border-radius: 8px;
   box-shadow: 2px 2px 8px #dedede;
   padding: 25px;
@@ -163,10 +154,10 @@ form {
   justify-content: center;
   width: 100px;
   height: 100px;
-  background-color: var(--color-secondary);
+  background-color: $color-secondary;
   border-width: 1px;
   border-style: solid;
-  border-color: var(--color-secondary);
+  border-color: $color-secondary;
   border-radius: 50%;
 }
 
@@ -174,7 +165,7 @@ form {
   text-align: center;
   font-size: 1.25rem;
   font-weight: bold;
-  color: var(--color-dark-blue);
+  color: $color-dark-blue;
 }
 
 .sui-card .sui-text {
@@ -183,7 +174,7 @@ form {
 
 /* boost your links section */
 .boost-your-links-section {
-  background-color: var(--color-secondary);
+  background-color: $color-secondary;
 }
 
 .boost-your-links-section .container {
@@ -193,13 +184,13 @@ form {
 }
 
 .boost-your-links-section .sui-subtitle {
-  color: var(--color-white);
+  color: $color-white;
   margin-bottom: 22px;
 }
 
 /* footer */
 footer {
-  background-color: var(--color-dark);
+  background-color: $color-dark;
 }
 
 footer .container {
@@ -226,7 +217,7 @@ footer .container {
 .footer-links .links h3 {
   font-size: 1rem;
   font-weight: bold;
-  color: var(--color-gray-20);
+  color: $color-gray-20;
   margin-bottom: 1.375rem;
 }
 
@@ -241,7 +232,7 @@ footer .container {
 .footer-links .links ul li a {
   font-size: 1rem;
   font-weight: bold;
-  color: var(--color-violet-light);
+  color: $color-violet-light;
 }
 
 .sui-social-medias {
