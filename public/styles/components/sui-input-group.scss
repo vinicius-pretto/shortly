@@ -1,0 +1,54 @@
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 128px;
+  background-color: $color-secondary;
+  margin: 3rem 0;
+}
+
+.sui-input-group {
+  display: flex;
+  flex: 1;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  max-width: 768px;
+}
+
+.sui-input-group input {
+  display: flex;
+  flex: 1;
+  padding: 0.66rem 0.5rem;
+  border-radius: 4px 0 0 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-right: none;
+  border-color: $color-violet-light;
+}
+
+.sui-input-group input,
+.sui-input-group input::placeholder {
+  font-family: inherit;
+  font-size: 1rem;
+  color: $color-violet-light;
+}
+
+.sui-input-group button {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: $color-primary;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $color-primary;
+  border-radius: 0 4px 4px 0;
+  color: $color-white;
+  padding: 0.66rem 0.3rem;
+  min-width: 100px;
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .sui-input-group {
+    max-width: 680px;
+  }
+}
