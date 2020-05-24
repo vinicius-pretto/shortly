@@ -23,7 +23,7 @@
   border-width: 1px;
   border-style: solid;
   border-color: $color-secondary;
-  border-radius: 50%;
+  border-radius: $border-radius-circle;
 }
 
 .sui-card h3 {

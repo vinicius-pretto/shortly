@@ -19,7 +19,8 @@ form {
   display: flex;
   flex: 1;
   padding: 0.66rem 0.5rem;
-  border-radius: 4px 0 0 4px;
+  border-top-left-radius: $border-radius-base;
+  border-bottom-left-radius: $border-radius-base;
   border-width: 1px;
   border-style: solid;
   border-right: none;
@@ -41,7 +42,8 @@ form {
   border-width: 1px;
   border-style: solid;
   border-color: $color-primary;
-  border-radius: 0 4px 4px 0;
+  border-top-right-radius: $border-radius-base;
+  border-bottom-right-radius: $border-radius-base;
   color: $color-white;
   padding: 0.66rem 0.3rem;
   min-width: 100px;
