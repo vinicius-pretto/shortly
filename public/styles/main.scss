@@ -50,7 +50,7 @@ a {
 }
 
 .sui-title {
-  font-size: 2.625rem;
+  font-size: $font-size-xl;
   font-weight: bold;
   text-align: center;
   line-height: 48px;
@@ -111,7 +111,7 @@ a {
   }
 
   .sui-title {
-    font-size: 4.625rem;
+    font-size: $font-size-xxl;
     line-height: 90px;
     text-align: left;
   }

@@ -29,13 +29,13 @@ form {
 .sui-input-group input,
 .sui-input-group input::placeholder {
   font-family: inherit;
-  font-size: 1rem;
+  font-size: $font-size-base;
   color: $color-violet-light;
 }
 
 .sui-input-group button {
   font-family: inherit;
-  font-size: 1rem;
+  font-size: $font-size-base;
   font-weight: bold;
   background-color: $color-primary;
   border-width: 1px;
