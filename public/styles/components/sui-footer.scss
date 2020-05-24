@@ -8,8 +8,8 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-top: 4rem;
-  padding-bottom: 3rem;
+  padding-top: $spacing-xl;
+  padding-bottom: $spacing-lg;
 }
 
 .footer-links {
@@ -20,18 +20,18 @@
 }
 
 .footer-links .links {
-  margin: 3rem 0;
+  margin: $spacing-lg 0;
 }
 
 .footer-links .links h3 {
   font-size: $font-size-base;
   font-weight: $font-weight-bold;
   color: $color-gray-20;
-  margin-bottom: 1.375rem;
+  margin-bottom: $spacing-lg;
 }
 
 .footer-links .links ul li {
-  margin-bottom: 1rem;
+  margin-bottom: $spacing-md;
 }
 
 .footer-links .links ul li:nth-last-child(1) {

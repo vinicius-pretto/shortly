@@ -1,12 +1,12 @@
 .sui-card {
   position: relative;
   background-color: $color-white;
-  border-radius: 8px;
+  border-radius: $border-radius-base;
   box-shadow: 2px 2px 8px $color-gray-20;
-  padding: 25px;
-  padding-top: 5rem;
-  margin-top: 6rem;
-  margin-bottom: 3rem;
+  padding: $spacing-lg;
+  padding-top: $spacing-xl;
+  margin-top: $spacing-xl;
+  margin-bottom: $spacing-xl;
   max-width: 320px;
 }
 
