@@ -11,6 +11,7 @@
 @import "components/sui-footer.scss";
 @import "main-section.scss";
 @import "advanced-statistics-section.scss";
+@import "boost-your-links-section.scss";
 
 * {
   margin: 0;
@@ -38,22 +39,6 @@ a {
 
 .container {
   margin: 0 $spacing-md;
-}
-
-/* boost your links section */
-.boost-your-links-section {
-  background-color: $color-secondary;
-}
-
-.boost-your-links-section .container {
-  padding-top: 91px;
-  padding-bottom: 91px;
-  text-align: center;
-}
-
-.boost-your-links-section .sui-subtitle {
-  color: $color-white;
-  margin-bottom: 22px;
 }
 
 @media (min-width: 768px) and (max-width: 1439px) {
