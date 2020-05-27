@@ -1,0 +1,15 @@
+.sui-title {
+  font-size: $font-size-xl;
+  font-weight: $font-weight-bold;
+  text-align: center;
+  line-height: 48px;
+  color: $color-dark-blue;
+}
+
+@media (min-width: 1440px) {
+  .sui-title {
+    font-size: $font-size-xxl;
+    line-height: 90px;
+    text-align: left;
+  }
+}

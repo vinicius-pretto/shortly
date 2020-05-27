@@ -4,6 +4,7 @@
 @import "components/sui-logo.scss";
 @import "components/sui-text.scss";
 @import "components/sui-input-group.scss";
+@import "components/sui-title.scss";
 @import "components/sui-subtitle.scss";
 @import "components/sui-card.scss";
 @import "components/sui-social-media-links.scss";
@@ -77,12 +78,6 @@ a {
   .container {
     max-width: 1200px;
     margin: 0 auto;
-  }
-
-  .sui-title {
-    font-size: $font-size-xxl;
-    line-height: 90px;
-    text-align: left;
   }
   /* statistics section */
   .cards-container {
