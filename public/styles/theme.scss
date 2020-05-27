@@ -10,7 +10,7 @@ $color-white: #ffffff;
 $color-gray-20: #dedede;
 
 // Font
-$font-family-primary: "Poppins", sans-serif;
+$font-family-primary: Poppins, sans-serif;
 $font-weight-regular: 500;
 $font-weight-bold: 700;
 $font-size-base: 1rem;
@@ -29,3 +29,11 @@ $spacing-sm: 0.5rem;
 $spacing-md: 1rem;
 $spacing-lg: 2rem;
 $spacing-xl: 4rem;
+
+// Zindex
+$z-index-default: 1;
+$z-index-masked: 100;
+$z-index-tooltip: 200;
+$z-index-toast: 300;
+$z-index-modal: 400;
+$z-index-top: 99;
