@@ -8,6 +8,7 @@
 @import "components/sui-card.scss";
 @import "components/sui-social-media-links.scss";
 @import "components/sui-footer.scss";
+@import "main-section.scss";
 
 * {
   margin: 0;
@@ -34,34 +35,7 @@ a {
 }
 
 .container {
-  margin: 0 1rem;
-}
-
-/* main section */
-.sui-banner {
-  max-width: 100%;
-  margin-bottom: 2.625rem;
-}
-
-.main-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.sui-title {
-  font-size: $font-size-xl;
-  font-weight: $font-weight-bold;
-  text-align: center;
-  line-height: 48px;
-  color: $color-dark-blue;
-}
-
-.section-cta {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 0 $spacing-md;
 }
 
 /* advanced statistics section */
@@ -92,16 +66,10 @@ a {
   margin-bottom: 22px;
 }
 
-/* footer */
-
 @media (min-width: 768px) and (max-width: 1439px) {
   .container {
     max-width: 680px;
     margin: 0 auto;
-  }
-
-  .sui-banner {
-    max-width: 450px;
   }
 }
 
@@ -116,27 +84,6 @@ a {
     line-height: 90px;
     text-align: left;
   }
-
-  /* main section */
-  .sui-banner {
-    max-width: 450px;
-  }
-
-  .main-section {
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .main-section .sui-text {
-    text-align: left;
-    max-width: 380px;
-  }
-
-  .section-cta {
-    justify-content: start;
-  }
-
   /* statistics section */
   .cards-container {
     flex-direction: row;
