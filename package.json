@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "build": "npm run compile:sass",
-    "watch:sass": "sass --watch public/styles/main.scss public/css/main.css",
-    "compile:sass": "sass public/styles/main.scss public/css/main.css"
+    "watch:sass": "./bin/sass/watch.js",
+    "compile:sass": "./bin/sass/compile.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "chalk": "^4.0.0",
     "sass": "^1.26.5"
   }
 }

@@ -9,10 +9,14 @@ $color-violet-lighter: #f0f1f6;
 $color-white: #ffffff;
 $color-gray-20: #dedede;
 
-// Font
+// Font Family
 $font-family-primary: Poppins, sans-serif;
+
+// Font Weight
 $font-weight-regular: 500;
 $font-weight-bold: 700;
+
+// Font Size
 $font-size-base: 1rem;
 $font-size-md: 1.25rem;
 $font-size-lg: 1.75rem;
@@ -36,4 +40,4 @@ $z-index-masked: 100;
 $z-index-tooltip: 200;
 $z-index-toast: 300;
 $z-index-modal: 400;
-$z-index-top: 99;
+$z-index-top: 999;
