@@ -4,6 +4,7 @@ const spawn = require("child_process").spawn;
 const config = require("../../config");
 
 const sass = spawn("sass", [
+  `--load-path=${config.sassCompiler.includePath}`,
   config.sassCompiler.file,
   config.sassCompiler.outFile,
 ]);

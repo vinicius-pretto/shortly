@@ -5,6 +5,7 @@ const config = require("../../config");
 
 const sass = spawn("sass", [
   "--watch",
+  `--load-path=${config.sassCompiler.includePath}`,
   config.sassCompiler.file,
   config.sassCompiler.outFile,
 ]);
