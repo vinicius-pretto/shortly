@@ -1,6 +1,7 @@
 .sui-banner {
   width: 100%;
   max-width: 450px;
+  max-height: 250px;
   margin-bottom: $spacing-lg;
 }
 
@@ -25,7 +26,7 @@
   }
 
   .sui-banner {
-    margin-bottom: 0;
+    max-height: 300px;
   }
 }
 
@@ -39,6 +40,7 @@
   }
 
   .sui-banner {
+    max-height: 300px;
     margin-bottom: 0;
   }
 
