@@ -38,17 +38,8 @@
   border-bottom-color: $color-gray-20;
 }
 
-.sui-nav-menu-mobile ul {
+.sui-nav-menu-mobile sui-list {
   margin-top: $spacing-lg;
-}
-
-.sui-nav-menu-mobile ul li {
-  padding-bottom: $spacing-lg;
-}
-
-.sui-nav-menu-mobile ul li a {
-  font-weight: $font-weight-bold;
-  color: $color-violet-light;
 }
 
 #nav-menu-mobile-backdrop {
