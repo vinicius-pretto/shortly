@@ -1,4 +1,7 @@
-.sui-banner {
+sui-illustration-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   width: 100%;
   max-width: 450px;
   max-height: 250px;
@@ -25,7 +28,7 @@
     margin: 0 auto;
   }
 
-  .sui-banner {
+  sui-illustration-icon {
     max-height: 300px;
   }
 }
@@ -39,7 +42,8 @@
     margin: $spacing-xl auto;
   }
 
-  .sui-banner {
+  sui-illustration-icon {
+    flex-direction: column;
     max-height: 300px;
     margin-bottom: 0;
   }
