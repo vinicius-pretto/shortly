@@ -12,16 +12,6 @@
   align-items: center;
 }
 
-.sui-burger-menu {
-  width: 32px;
-  height: 24px;
-  border: none;
-  cursor: pointer;
-  background: transparent;
-  background-repeat: no-repeat;
-  background-image: url("../images/menu.svg");
-}
-
 .sui-nav-menu {
   display: none;
 }
@@ -96,7 +86,7 @@
     margin-right: $spacing-lg;
   }
 
-  .sui-burger-menu,
+  sui-burger-button,
   .sui-nav-menu-mobile,
   #nav-menu-mobile-backdrop {
     display: none;
