@@ -42,6 +42,10 @@
   margin-top: $spacing-lg;
 }
 
+sui-burger-button {
+  z-index: $z-index-masked;
+}
+
 #nav-menu-mobile-backdrop {
   position: fixed;
   top: 0;
