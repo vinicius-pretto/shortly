@@ -9,9 +9,9 @@ form {
 
 .sui-input-group {
   display: flex;
-  flex: 1;
   margin-left: $spacing-md;
   margin-right: $spacing-md;
+  flex-basis: 100%;
   max-width: 768px;
 }
 
@@ -29,6 +29,12 @@ form {
 
 .sui-input-group input,
 .sui-input-group input::placeholder {
+  font-family: inherit;
+  font-size: $font-size-base;
+  color: $color-violet-light;
+}
+
+.sui-input-group input:-ms-input-placeholder {
   font-family: inherit;
   font-size: $font-size-base;
   color: $color-violet-light;

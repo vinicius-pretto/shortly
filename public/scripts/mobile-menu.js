@@ -21,11 +21,13 @@ function closeMenu() {
   lastActiveElement.focus();
 }
 
-$("#burger-menu").addEventListener("click", openMenu);
-$("#close-button").addEventListener("click", closeMenu);
-$("#nav-menu-mobile-backdrop").addEventListener("click", closeMenu);
-$("#nav-menu-mobile").addEventListener("keydown", (event) => {
+function onKeyDown(event) {
   if (event.which === keyboardCode.ESC) {
     closeMenu();
   }
-});
+}
+
+$("#burger-menu").addEventListener("click", openMenu);
+$("#close-button").addEventListener("click", closeMenu);
+$("#nav-menu-mobile-backdrop").addEventListener("click", closeMenu);
+$("#nav-menu-mobile").addEventListener("keydown", onKeyDown);
