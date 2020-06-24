@@ -1,4 +1,4 @@
-@import "theme.scss";
+@import "shortly-tokens/dist";
 @import "components/sui-header.scss";
 @import "components/sui-text.scss";
 @import "components/sui-input-group.scss";
@@ -35,14 +35,6 @@ a {
 
 .container {
   margin: 0 $spacing-md;
-}
-
-.color-primary {
-  fill: $color-primary;
-}
-
-.statistic-icon {
-  fill: $color-primary;
 }
 
 @media (min-width: 768px) and (max-width: 1439px) {
